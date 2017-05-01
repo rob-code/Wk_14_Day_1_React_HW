@@ -27,7 +27,9 @@ class OpeningsBox extends React.Component {
       <Title/>
       <FilmList data={this.state.data}/>
       <SeeMoreLink/>
+      <hr />
       <GetShowTimesButton/>
+      <hr />
       </div>
       )
 

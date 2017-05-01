@@ -12,7 +12,7 @@ border: 1px solid grey;
 
 .title{
   font-size: 1.2em;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .film-wrapper{
@@ -21,9 +21,9 @@ border: 1px solid grey;
 
 .film-icon{
   content: url('icon.png');
-  width:16px;
+  width:15px;
   height:20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   vertical-align: middle;
   margin: 0px;
 }
@@ -56,10 +56,13 @@ display: inline-block;
   padding-bottom: 15px;
   color: #136cb2;
 }
-/*
-.hr{
-  color: grey;
-}*/
+
+hr{
+  background: #DCDCDC;
+  border-width: 0px;
+  border: none;
+  height: 1px;
+}
 
 .get-showtimes-button{
   color: #FFFFFF;
