@@ -2,7 +2,7 @@ import React from 'react'
 import Film from './film.jsx'
 
 class FilmList extends React.Component{
-  
+
   render(){
     const filmNodes = this.props.data.map( (film) => {
       return (
@@ -12,17 +12,13 @@ class FilmList extends React.Component{
         )
     })
 
-
-  return (
-    <div className="film-list">
+    return (
+      <div className="film-list">
       {filmNodes}
-    </div>
-    )
-}
+      </div>
+      )
+  }
 
 }
-
-
-
 
 export default FilmList

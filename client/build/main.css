@@ -1,0 +1,75 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.openings-box{
+padding: 10px;
+width: 260px;
+border: 1px solid grey;
+
+}
+
+.title{
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.film-wrapper{
+  height: 45px;
+}
+
+.film-icon{
+  content: url('icon.png');
+  width:16px;
+  height:20px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+.film{
+  padding-left: 12px;
+  color: #136cb2;
+  vertical-align: middle;
+}
+
+.showtimes{
+  font-size:.8em;
+  float: right;
+  color: #136cb2;
+  vertical-align: middle;
+  text-align: right;
+  /*margin-top: 16px;
+  margin-bottom: 0px;*/
+  margin-top: 5px;
+}
+
+.inline{
+display: inline-block;
+/* float:left
+*/
+}
+
+.see-more-link{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #136cb2;
+}
+/*
+.hr{
+  color: grey;
+}*/
+
+.get-showtimes-button{
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #136cb2;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
