@@ -5,8 +5,6 @@ const GetShowTimesButton = () => {
   return (
 <div className="get-showtimes-button">Get Showtimes >></div> 
     )
-
-
 }
 
 
